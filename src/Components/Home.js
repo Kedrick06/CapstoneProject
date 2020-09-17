@@ -10,8 +10,9 @@ const Home = () => {
 
     useEffect(() => {
         fetchAllProducts()
+
         return () => {
-            // cleanup
+
         };
     }, [fetchAllProducts])
 

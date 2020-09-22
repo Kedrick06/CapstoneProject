@@ -17,7 +17,7 @@ const Home = () => {
     }, [fetchAllProducts])
 
 
-
+    if (!products) return <Loading/>
     return (
         <Container>
             <Row>

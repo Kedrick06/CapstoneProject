@@ -16,9 +16,9 @@ class Navigation extends Component {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto">
-                <Nav.Link href="#pricing">About</Nav.Link>
+                <Nav.Link href="/About">About</Nav.Link>
                     <NavDropdown title="Threads" id="collasible-nav-dropdown">
-                         <NavDropdown.Item href="/ProductPage">Men's Clothing</NavDropdown.Item>
+                         <NavDropdown.Item href="/">Men's Clothing</NavDropdown.Item>
                     </NavDropdown>
                 </Nav>
                 <Nav>

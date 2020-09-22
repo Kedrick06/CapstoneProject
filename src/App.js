@@ -7,10 +7,10 @@ import Footer from './Components/Footer';
 import Signin from './Components/Signin';
 import { Provider as StyletronProvider, DebugEngine } from "styletron-react";
 import { Client as Styletron } from "styletron-engine-atomic";
-import ProductPage from './Components/ProductPage';
-import ShopProvider from './Components/shopContext'
-import Cart from './Components/Cart'
-import Loading from './Components/Loading'
+import ThreadPage from './Components/ThreadPage';
+import ShopProvider from './Components/shopContext';
+import Cart from './Components/Cart';
+
 
 
 const debug =
@@ -26,13 +26,14 @@ function App() {
     <BrowserRouter>
     <div className="App">
       <Navigation/>
+      <Cart/>
       <Switch>
       <Route path='/' exact = {true} component={Home} />
       <Route path='/Signin' exact = {true} component={Signin} />
-      <Route path='/ProductPage' exact = {true} component={ProductPage}/>
+      <Route path="/product/:id">
+        <ThreadPage/>
+        </Route>
       <Route path='/Cart' exact= {true} component={Cart}/>
-      <Cart/>
-      <Loading/>
       </Switch>
       <Footer/>
       </div>

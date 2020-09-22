@@ -4,7 +4,7 @@ import { ShopContext } from './shopContext';
 import { Text, Div, Button, Row, Col, Container } from 'atomize'
 import Loading from './Loading';
 
-const ProductPage = () => {
+const ThreadPage = () => {
     let { id } = useParams()
     const { fetchProductWithId, addItemToCheckout, product } = useContext(ShopContext)
  
@@ -36,4 +36,4 @@ const ProductPage = () => {
     )
 }
 
-export default ProductPage
+export default ThreadPage;

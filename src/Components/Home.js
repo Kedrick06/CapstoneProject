@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import Loading from'./Loading';
 
 
+
 const Home = () => {
     const {fetchAllProducts, products} = useContext(ShopContext)
 

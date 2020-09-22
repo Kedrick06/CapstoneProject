@@ -25,8 +25,8 @@ class Signin extends Component {
         console.log('My post')
 
         let newUsers = {
-            firstName:this.state.firstName,
-            lastName:this.state.lastName,
+            firstName: this.state.firstName,
+            lastName: this.state.lastName,
             email:this.state.email,
         }
 

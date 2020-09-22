@@ -13,6 +13,7 @@ import Cart from './Components/Cart';
 
 
 
+
 const debug =
   process.env.NODE_ENV === "production" ? void 0 : new DebugEngine();
 
@@ -26,6 +27,13 @@ function App() {
     <BrowserRouter>
     <div className="App">
       <Navigation/>
+      <div class="container">
+        <div class="jumbotron">
+            <h1>FIRETHREADS</h1>
+            <p>PROVIDING ALL THE LATEST IN MEN'S FASHION EST. 2020</p>
+
+        </div>
+      </div>
       <Cart/>
       <Switch>
       <Route path='/' exact = {true} component={Home} />

@@ -33,6 +33,7 @@ function App() {
       <Route path="/product/:id">
         <ThreadPage/>
         </Route>
+
       <Route path='/Cart' exact= {true} component={Cart}/>
       </Switch>
       <Footer/>

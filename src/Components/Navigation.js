@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {Navbar, Nav, NavDropdown} from 'react-bootstrap';
 import { Icon, Button, Anchor } from "atomize";
-import { Link } from 'react-router-dom';
+import { Link} from 'react-router-dom';
 
 class Navigation extends Component {
 
@@ -53,7 +53,6 @@ class Navigation extends Component {
                 </Nav>
                 <Nav>
                     <Link to="/Signin">Sign in</Link>
-                    <Link to="/Cart">Cart</Link>
                 </Nav>
 
             </Navbar.Collapse>

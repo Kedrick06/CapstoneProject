@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Navigation from './Components/Navigation';
-import {BrowserRouter, Route, Switch} from 'react-router-dom';
+import {HashRouter as Router, Route, Switch} from 'react-router-dom';
 import Home from './Components/Home';
 import Footer from './Components/Footer';
 import Signin from './Components/Signin';
@@ -23,12 +23,12 @@ function App() {
   return (
     <ShopProvider>
     <StyletronProvider value={engine} debug={debug} debugAfterHydration>
-      <BrowserRouter>
+      <Router>
     <div className="App">
 
       <Navigation/>
       <div class="container">
-        
+
         <div class="jumbotron">
             <h1>FIRETHREADS</h1>
             <p>PROVIDING ALL THE LATEST IN MEN'S FASHION EST. 2020</p>
@@ -47,7 +47,7 @@ function App() {
       </Switch>
       <Footer/>
       </div>
-    </BrowserRouter>
+    </Router>
     </StyletronProvider>
     </ShopProvider>
   );

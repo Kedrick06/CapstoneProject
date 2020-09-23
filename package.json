@@ -1,6 +1,5 @@
 {
   "homepage": "http://Kedrick06.github.io/CapstoneProject",
-  "proxy": "http://localhost:8080",
   "name": "capstone_project",
   "version": "0.1.0",
   "private": true,

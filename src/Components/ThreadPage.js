@@ -16,6 +16,7 @@ const ThreadPage = () => {
         return () => {
           
         };
+    
     }, [ fetchProductWithId, id])
 
     if (!product.title) return <Loading />

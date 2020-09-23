@@ -47,7 +47,7 @@ class Signin extends Component {
             const data = res.data
             console.log(data);
             const user = data.map((u, index) => {
-           
+            console.log(user);
             }
             )
         })

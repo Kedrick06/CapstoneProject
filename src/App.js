@@ -25,8 +25,10 @@ function App() {
     <StyletronProvider value={engine} debug={debug} debugAfterHydration>
       <BrowserRouter>
     <div className="App">
+
       <Navigation/>
       <div class="container">
+        
         <div class="jumbotron">
             <h1>FIRETHREADS</h1>
             <p>PROVIDING ALL THE LATEST IN MEN'S FASHION EST. 2020</p>

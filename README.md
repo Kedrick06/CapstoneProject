@@ -1,3 +1,6 @@
+MY CAPSTONE PROJECT
+
+
 FIRETHREADS is a custom e-commerce app built using boostrap, react, atomize & the shopify & forever 21 api's. 
 The target audience of my website are men & the products sold will be Men’s clothes & sneakers. 
 It will be a simple site with little glitter & all functionality. 

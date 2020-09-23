@@ -44,7 +44,7 @@ class ShopProvider extends Component {
       .then((checkout) => {
         this.setState({ checkout: checkout });
       })
-      .catch((err) => console.log(err));
+      
   };
 
   addItemToCheckout = async (variantId, quantity) => {
@@ -59,7 +59,7 @@ class ShopProvider extends Component {
       lineItemsToAdd
     );
     this.setState({ checkout: checkout });
-    console.log(checkout);
+  
 
     this.openCart();
   };
@@ -72,7 +72,7 @@ class ShopProvider extends Component {
   fetchProductWithId = async (id) => {
     const product = await client.product.fetch(id);
     this.setState({ product: product });
-    console.log(JSON.stringify(product));
+   
 
     return product;
   };

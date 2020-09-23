@@ -8,4 +8,5 @@ I will be using React Native to accomplish my front & back-end goals.
 My design will be simple & similar to that of sites like Etsy, Poshmark, Asos or Amazon. 
 
 Main App link: 
+
 Heroku backend link: https://git.heroku.com/glacial-wave-82551.git

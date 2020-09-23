@@ -56,6 +56,7 @@ class Navigation extends Component {
                     <Nav.Link href="/Signin">Sign in</Nav.Link>
                     <Nav.Link  href="/Cart">Cart</Nav.Link>
                 </Nav>
+                
             </Navbar.Collapse>
     </Navbar>
     

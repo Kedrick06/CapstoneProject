@@ -7,12 +7,12 @@ const ShopConsumer = ShopContext.Consumer;
 
 export { ShopConsumer, ShopContext };
 
-
+//Accessing the API
 const client = Client.buildClient({
   storefrontAccessToken: "dd4d4dc146542ba7763305d71d1b3d38",
   domain: "graphql.myshopify.com",
 });
-
+//Initiating state for the products, checkout and cart
 class ShopProvider extends Component {
   state = {
     products: [],
@@ -20,6 +20,7 @@ class ShopProvider extends Component {
     checkout: {},
     isCartOpen: false,
   };
+
 
   componentDidMount() {
 

@@ -23,8 +23,7 @@ function App() {
   return (
     <ShopProvider>
     <StyletronProvider value={engine} debug={debug} debugAfterHydration>
-
-    <BrowserRouter>
+      <BrowserRouter>
     <div className="App">
       <Navigation/>
       <div class="container">

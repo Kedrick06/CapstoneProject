@@ -37,8 +37,8 @@ const Home = () => {
                                     m={{ b: "1.5rem" }}
                                     >
                                 </Div>
-                                <Text tag="h1" textWeight="300" textSize="subheader" textDecor="none" textColor="black500">{product.title}</Text>
-                                <Text tag="h2" textWeight="300" textSize="body" textDecor="none" textColor="gray500">${product.variants[0].price}</Text>
+                                <Text tag="h1" textWeight="300" textSize="subheader" textDecor="none" textColor="orange">{product.title}</Text>
+                                <Text tag="h2" textWeight="300" textSize="body" textDecor="none" textColor="white">${product.variants[0].price}</Text>
                             </Div>
                         </Link>
                     </Col>

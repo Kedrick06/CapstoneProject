@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {Navbar, Nav, NavDropdown} from 'react-bootstrap';
 import { Icon, Button, Anchor } from "atomize";
+import { Link} from 'react-router';
 
 class Navigation extends Component {
 
@@ -47,12 +48,12 @@ class Navigation extends Component {
             <Nav className="mr-auto">
                 
                     <NavDropdown title="Threads" id="collasible-nav-dropdown">
-                         <NavDropdown.Item href="/">Men's Clothing</NavDropdown.Item>
+                         <Link to="/">Men's Clothing</Link>
                     </NavDropdown>
                 </Nav>
                 <Nav>
-                    <Nav.Link href="/Signin">Sign in</Nav.Link>
-                    <Nav.Link  href="/Cart">Cart</Nav.Link>
+                    <Link to="/Signin">Sign in</Link>
+                    <Link to="/Cart">Cart</Link>
                 </Nav>
 
             </Navbar.Collapse>

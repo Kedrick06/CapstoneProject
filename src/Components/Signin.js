@@ -52,14 +52,6 @@ class Signin extends Component {
     }
 
     render() {
-    
-
-
-
-
-
-
-
         return (
             <div className="App-header">
                 <br></br>

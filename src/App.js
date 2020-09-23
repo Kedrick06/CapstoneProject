@@ -39,10 +39,7 @@ function App() {
       <Switch>
       <Route path='/' exact = {true} component={Home} />
       <Route path='/Signin' exact = {true} component={Signin} />
-      <Route path="/product/:id">
-        <ThreadPage/>
-        </Route>
-
+      <Route path="/product/:id" exact = {true} component={ThreadPage}/>
       <Route path='/Cart' exact= {true} component={Cart}/>
       </Switch>
       <Footer/>

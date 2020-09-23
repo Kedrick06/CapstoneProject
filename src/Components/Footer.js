@@ -20,6 +20,7 @@ class Footer extends Component {
 
 
             </Navbar>
+        
         );
     }
 }

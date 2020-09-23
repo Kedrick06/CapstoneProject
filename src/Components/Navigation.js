@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {Navbar, Nav, NavDropdown} from 'react-bootstrap';
 import { Icon, Button, Anchor } from "atomize";
-import { Link} from 'react-router';
+import { Link } from 'react-router-dom';
 
 class Navigation extends Component {
 

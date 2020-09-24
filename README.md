@@ -8,7 +8,6 @@ I will be using React Native to accomplish my front & back-end goals.
 My design will be simple & similar to that of sites like Etsy, Poshmark, Asos or Amazon. 
 
 <blockquote class="embedly-card"><h4><a href="https://youthful-minsky-5cac7d.netlify.app">Firethreads</a></h4><p>Web site created using create-react-app</p></blockquote>
-<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 
 
 

@@ -9,7 +9,7 @@ import { Provider as StyletronProvider, DebugEngine } from "styletron-react";
 import { Client as Styletron } from "styletron-engine-atomic";
 import ThreadPage from './Components/ThreadPage';
 import ShopProvider from './Components/shopContext';
-import Cart from './Components/Cart';
+
 
 
 
@@ -35,12 +35,11 @@ function App() {
 
         </div>
       </div>
-      <Cart/>
+      
       <Switch>
       <Route path='/' exact = {true} component={Home} />
       <Route path='/Signin' exact = {true} component={Signin} />
       <Route path="/product/:id" exact = {true} component={ThreadPage}/>
-      <Route path='/Cart' exact= {true} component={Cart}/>
       </Switch>
       <Footer/>
       </div>

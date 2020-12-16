@@ -36,7 +36,7 @@ class Navigation extends Component {
             hoverBg="warning600"
             rounded="circle"
             m={{ r: "1rem" }}
-            shadow="2"
+            shadow="3"
             hoverShadow="4">
         <Anchor href="https://facebook.com/bfloblk">
         <Icon name="Facebook" size="20px" color="white" />
